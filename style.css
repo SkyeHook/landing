@@ -1,0 +1,95 @@
+/* Write some CSS below */
+/* style.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #404042;
+  font-size: 18px;
+  background-color: lightyellow;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-pink {
+  background-color: #f5c395;
+  font-weight: bold;
+  text-decoration: none;
+  color: ivory;
+  padding: 8px 16px;
+}
+
+.btn-pink:hover {
+  color: #f5e9cb;
+}
+
+.banner {
+	background-image: url('images/backgroundd.jpg');
+	text-align: center;
+	padding: 100px 0px;
+	background-position: center;
+}
+
+.card-white {
+	background-color: white;
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+	width: 200px;
+	padding: 16px;
+	border-radius: 5px;
+}
+
+.card-white img {
+	width: 100%;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.container p {
+	font-size: 15px;
+}
+
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+.footer {
+	background-color: #f5de93;
+	font-size: 15px;
+	padding: 30px 0px;
+	margin-top: 20px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-white {
+    width: auto;
+  }
+}
